@@ -45,4 +45,9 @@ $t='abcdef';
 $find='d';
 $pos = strpos($t,$find);
 echo $pos;
+
+//stristr()
+$web = 'www.njit.com';
+echo stristr($web, 'j');
+
 ?>
