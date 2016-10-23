@@ -37,4 +37,6 @@ $ary= array('lastname','email','phone');
 $seper = implode('.', $ary);
 echo $seper;
 
+//print
+print('HOW ARE YOU');
 ?>
