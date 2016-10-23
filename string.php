@@ -26,4 +26,11 @@ echo htmlspecialchars($p);
 //string slash
 $strr= 'What\'s your major?';
 echo stripslashes($strr);
+
+
+//string pad
+$l= 'Abel';
+echo str_pad($l, 20, 'Vega');
+
+
 ?>
