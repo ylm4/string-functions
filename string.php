@@ -32,5 +32,9 @@ echo stripslashes($strr);
 $l= 'Abel';
 echo str_pad($l, 20, 'Vega');
 
+//implode
+$ary= array('lastname','email','phone');
+$seper = implode('.', $ary);
+echo $seper;
 
 ?>
