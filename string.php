@@ -39,4 +39,10 @@ echo $seper;
 
 //print
 print('HOW ARE YOU');
+
+//string position
+$t='abcdef';
+$find='d';
+$pos = strpos($t,$find);
+echo $pos;
 ?>
