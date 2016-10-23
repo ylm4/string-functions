@@ -14,4 +14,9 @@ $st = 'hello, how are you doing   today?';
 print_r(str_word_count($st, 1));
 print_r(str_word_count($st, 2));
 
+//string shuffle
+$s= 'abcdef';
+$shuffled = str_shuffle($s);
+echo $shuffled;
+
 ?>
