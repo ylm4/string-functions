@@ -22,4 +22,8 @@ echo $shuffled;
 //html special characters
 $p = 'hello';
 echo htmlspecialchars($p);
+
+//string slash
+$strr= 'What\'s your major?';
+echo stripslashes($strr);
 ?>
