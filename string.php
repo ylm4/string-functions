@@ -8,3 +8,10 @@ print_r($ar1, 3);
 
 //string repeat
 echo str_repeat("hello", 5);
+
+//string word count
+$st = 'hello, how are you doing   today?';
+print_r(str_word_count($st, 1));
+print_r(str_word_count($st, 2));
+
+?>
