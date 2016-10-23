@@ -19,4 +19,7 @@ $s= 'abcdef';
 $shuffled = str_shuffle($s);
 echo $shuffled;
 
+//html special characters
+$p = 'hello';
+echo htmlspecialchars($p);
 ?>
