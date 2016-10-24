@@ -50,4 +50,10 @@ echo $pos;
 $web = 'www.njit.com';
 echo stristr($web, 'j');
 
+//explode
+$ar = 'arOne arTwo arThree arFour';
+$break = explode(' ',$ar);
+echo $break[1]; // arTwo
+echo $break[3];
+
 ?>
