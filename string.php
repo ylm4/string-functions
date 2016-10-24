@@ -59,4 +59,11 @@ echo $break[3];
 //join 
 $array = array('1', '2', '3', '4');
 echo join('<br>', $array);
+
+//sprint f--returns formated string 
+
+$coursenum = 218;
+$name = 'Information system';
+$sentence = 'Take an %s class section %s';
+echo sprintf($sentence,$name,$coursenum);
 ?>
