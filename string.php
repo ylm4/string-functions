@@ -56,4 +56,7 @@ $break = explode(' ',$ar);
 echo $break[1]; // arTwo
 echo $break[3];
 
+//join 
+$array = array('1', '2', '3', '4');
+echo join('<br>', $array);
 ?>
