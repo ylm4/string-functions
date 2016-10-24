@@ -66,4 +66,7 @@ $coursenum = 218;
 $name = 'Information system';
 $sentence = 'Take an %s class section %s';
 echo sprintf($sentence,$name,$coursenum);
+
+//string reverse
+echo strrev('NJIT')
 ?>
